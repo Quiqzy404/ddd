@@ -1,0 +1,21 @@
+[index.html](https://github.com/user-attachments/files/22584696/index.html)
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8" />
+<title>Test Weiterleitung</title>
+</head>
+<body>
+
+<button id="btn">Teste Links</button>
+
+<script>
+document.getElementById('btn').addEventListener('click', function() {
+  window.open('https://www.roblox.com/share?code=6dfeded7f15b534abbc163759c2759a1&type=Server', '_blank');
+  window.location.href = 'https://discord.gg/plantsvsbrainrots';
+});
+</script>
+
+</body>
+</html>
+
